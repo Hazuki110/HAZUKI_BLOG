@@ -1,0 +1,63 @@
+/* ------------------ 共通CSS ------------------ */
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+body {
+  font-size: 0.875rem;
+  color: #333;
+  background-color: #f4f9ff;
+}
+img {
+  max-width: 100%;
+}
+
+/* サイト全体のコンテナ */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* 中身のコンテンツ部分 */
+.inner {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* ヘッダー */
+#header {
+  margin-top: 60px;
+}
+#header .site-title {
+  width: 160px;
+  line-height: 1px;
+  margin-bottom: 15px;
+}
+#header .site-title a {
+  display: block;
+}
+
+/* Mainvisual */
+#mainvisual {
+  margin-bottom: 60px;
+}
+
+/* footer */
+#footer {
+  font-size: 0.625rem;
+  padding: 15px 0;
+}
+
+/* SP用レスポンシブ */
+@media screen and (max-width: 1024px) {
+  .inner {
+    padding: 0 40px;
+  }
+  #header {
+    padding: 0 10px;
+  }
+  #mainvisual {
+    padding: 0 10px;
+  }
+}
